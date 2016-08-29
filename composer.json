@@ -1,0 +1,19 @@
+{
+  "name": "visol/tt-address",
+  "type": "typo3-cms-extension",
+  "description": "visol fork of tt_address 2.3.5",
+  "homepage": "https://github.com/visol/tt_address",
+  "license": "GPL-2.0+",
+  "require": {
+    "typo3/cms-core": ">=6.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TYPO3\\TtAddress\\": "Classes"
+    }
+  },
+  "replace": {
+    "tt_address": "self.version",
+    "visol/tt-address": "self.version"
+  }
+}
