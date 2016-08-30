@@ -1,5 +1,6 @@
 {
   "name": "visol/tt-address",
+  "version": "2.3.5-p2",
   "type": "typo3-cms-extension",
   "description": "visol fork of tt_address 2.3.5",
   "homepage": "https://github.com/visol/tt_address",
