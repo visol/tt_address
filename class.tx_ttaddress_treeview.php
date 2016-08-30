@@ -136,7 +136,7 @@ class tx_ttaddress_treeview {
 					$treeViewObj->parentField  = $TCA[$config['foreign_table']]['ctrl']['treeParentField'];
 					$treeViewObj->expandAll    = 1;
 					$treeViewObj->expandFirst  = 1;
-					$treeViewObj->fieldArray   = array('uid','title','description'); // those fields will be filled to the array $treeViewObj->tree
+					$treeViewObj->fieldArray   = array('uid','pid','title','description'); // those fields will be filled to the array $treeViewObj->tree
 					$treeViewObj->ext_IconMode = '1'; // no context menu on icons
 					$treeViewObj->title        = $LANG->sL($TCA[$config['foreign_table']]['ctrl']['title']);
 
